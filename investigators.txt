@@ -8,11 +8,14 @@ Ryan Foley						 Illinois
 Melissa Graham					 UCB/LCOGT
 Or Graur							 New York University
 Jens Hjorth						 DARK
+Saurabh Jha						 Rutgers
 Patrick Kelly					 UC Berkeley
 Thomas Matheson				 NOAO
+Alberto Molino					 IAA, Spain
 Adam Riess	  					 JHU/STScI
 Kasper Borello Schmidt		 UC Santa Barbara
 Jonatan Selsing				 DARK
 Louis-Gregory Strolger		 STScI
 Tommaso Treu					 UCLA
+Benjamin Weiner				 Steward Observatory/UA
 Adi Zitrin 						 Cal Tech
