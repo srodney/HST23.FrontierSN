@@ -28,6 +28,11 @@ clean:
 	rm -f *.aux *.log *.bbl *.blg *.lof *.lot *.toc *options.tex
 
 #Generate a compact pdf file using emulateapj
+update: $(PAPER).tex
+	pdflatex $(PAPER); \
+	open $(PAPER).pdf
+
+#Generate a compact pdf file using emulateapj
 pdf: $(PAPER).tex
 	pdflatex $(PAPER); \
 	bibtex $(PAPER); \

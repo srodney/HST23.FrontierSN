@@ -1,3 +1,18 @@
 # NAME                      INSTITUTION
 Steven A. Rodney            The Johns Hopkins University
+Marusa Bradac					 UC Davis
 Gabriel B. Brammer          STScI
+Lise Christensen				 DARK
+Alex Filippenko				 UC Berkeley
+Ryan Foley						 Illinois
+Melissa Graham					 UCB/LCOGT
+Or Graur							 New York University
+Jens Hjorth						 DARK
+Patrick Kelly					 UC Berkeley
+Thomas Matheson				 NOAO
+Adam Riess	  					 JHU/STScI
+Kasper Borello Schmidt		 UC Santa Barbara
+Jonatan Selsing				 DARK
+Louis-Gregory Strolger		 STScI
+Tommaso Treu					 UCLA
+Adi Zitrin 						 Cal Tech

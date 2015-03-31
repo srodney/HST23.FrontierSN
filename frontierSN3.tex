@@ -28,6 +28,7 @@
 
 \documentclass[12pt]{article}
 \usepackage{phase1}
+\usepackage{adjustbox}
 
 \input{preamble}
 
@@ -42,30 +43,31 @@
 
 Over the past decade, the deep \HST\ Treasury surveys (GOODS, CANDELS,
 CLASH) have proven to be the most effective programs for locating and
-studying Supernovae (SNe) at high redshift.  These surveys have all
-enabled ``piggyback'' SN searches, which have collectively accumulated
-scores of SN detections, including many of the most distant SNe known
+studying supernovae (SNe) at high redshift ($z>1$).  These surveys
+have all enabled ``piggyback'' SN searches, which have collectively
+accumulated scores of SN detections, including many of the most
+distant SNe known
 \citep{Riess:2007,Dahlen:2008,Graur:2014,Rodney:2014}.  Continuing in
 this line of highly successful deep \HST\ surveys, the Hubble Frontier
 Fields (HFF) director's discretionary program (PI:Lotz) now provides a
 powerful new tool for the discovery of high-$z$ SNe.  What sets the
 HFF program apart from previous surveys is the extraordinary depth of
-each visit; with $\sim$4 orbits per filter per epoch, we can reach
-$m_{lim,3\sigma}(F160W)\approx27.9 (AB)$, nearly 1 mag deeper than
-CANDELS/CLASH per epoch. Gravitational lensing in the prime fields
-also magnifies SN fluxes by factors $\mu\gtrsim2$, making it possible
-to detect background events at extreme redshifts.
+each visit; with $\sim$4 orbits per filter per epoch, we can reach a
+$3\sigma$ limiting magnitude of $\approx27.9$ AB mag in F160W, nearly
+1 mag deeper than each epoch of CANDELS or CLASH. Gravitational lensing in
+the prime fields also magnifies SN fluxes by factors $\mu\gtrsim2$,
+making it possible to detect background events at extreme redshifts.
 
 In Cycle 21 the TAC awarded us 60 orbits and 15 non-disruptive ToO
 triggers over 3 cycles to use in follow-up observations of SNe
 discovered in HFF imaging and supplementary surveys. We are on pace to
 expend all of these orbits in the first 2 years, primarily due to the
-unexpected (and unprecedented) discovery of a multiply-imaged SN,
-gravitationally lensed into an Einstein Cross
-(Figure~\ref{fig:refsdal}, \citealt{Kelly:2015}).  {\bf We propose to
-  extend our FrontierSN program into Cycle 23, so we can continue to
-  provide the necessary follow-up observations to maximize the
-  scientific return of this rich Frontier Fields SN sample.}
+unexpected (and unprecedented) discovery of the multiply-imaged SN
+Refsdal, gravitationally lensed into an Einstein Cross
+\citep{Kelly:2015}.  {\bf We propose to extend our FrontierSN program
+  into Cycle 23, so we can continue to provide the necessary follow-up
+  observations to maximize the scientific return of this rich Frontier
+  Fields SN sample.}
 
 \bigskip
 \centerline {\bf Testing SN Progenitor Models with High Redshift Rates} 
@@ -82,56 +84,27 @@ discoveries have come from the GLASS program, and half from the HFF
 imaging.
 
 Our primary science goal with this complete SN sample is to measure
-\SNIa\ rates to $z\sim2.5$, yielding improved constraints on
+\SNIa\ rates at $z>1$, yielding improved constraints on
 \SNIa\ progenitor models.  With the CLASH and CANDELS surveys we have
 shown that measurements of the Type Ia SN rate beyond $z\sim1$ can be
-used to measure the fraction of \SNIa\ that explode within $\sim$500
+used to measure the fraction of \SNeIa\ that explode within $\sim$500
 Myr after formation \citep{Graur:2014,Rodney:2014}.  The FrontierSN
-program will improve this measurement even if no new \SNe\ are
+program will improve this measurement even if no new SNe are
 discovered at $z>1.5$.  Our lack of such high-$z$ detections in the
 first two years already strengthens the case for a low fraction of
-\SNIa\ that explode promptly, as suggested by the CANDELS and CLASH
+\SNeIa\ that explode promptly, as suggested by the CANDELS and CLASH
 programs.  To first order, this low rate supports the hypothesis that
 the \SNIa\ population is dominated by double white dwarf progenitor
-systems, and very few have progenitors systems with main sequence or
+systems, and few have progenitors systems with main sequence or
 giant branch donor stars.
 
-\begin{figure*}
-\centering
-%\vspace{-2mm}
-%\hspace{-11mm}
-%\resizebox{1.1\textwidth}{!}{
-\includegraphics[width=0.8\textwidth]{FIG/snTomas_lightcurve_fit_magAB}
-\includegraphics[width=0.55\textwidth]{FIG/snTomas_hubble_diagram}
-\includegraphics[width=0.44\textwidth]{FIG/snTomas_magnifications}%}
-\caption{ \label{fig:tomas} \small {\bf Testing Cluster Mass Models
-    with Lensed \SNIa.}  SN Tomas is a spectroscopically confirmed
-  Type Ia SN at $z=1.33$, discovered by the FrontierSN program behind
-  the galaxy cluster Abell 2744 (z=0.308).  {\it(Top)} This SN is well
-  matched by a normal \SNIa\ light curve template with little
-  extinction, using either the MLCS2k2 or SALT2 light curve fitters.
-  \textcolor{red}{TODO: drop one of the fitters for simplicity}
-  {\it(Bottom Left)} To define a cosmology-independent ``true''
-  distance modulus, we use a linear fit to the distances from
-  un-lensed \SNe\ at similar redshifts \citep{Riess:2007,
-    Suzuki:2012}. The separation between the best-fit line and our
-  lensed SN gives us a measurement of the lensing magnification with
-  $\sim$10\% precision.  {\it (Bottom Right)} The vertical red and
-  blue bars indicate the measured magnification from the SN, and data
-  points show the predicted values from all publicly available lens
-  models, with the sample mean as a dashed vertical line. Collectively
-  these models are {\it systematically overestimating} the
-  magnification. }
-\end{figure*}
 
-
-\pagebreak
 \centerline {\bf Illuminating Dark Lenses with Highly Magnified Transients} 
 \medskip
 
 The FrontierSN program in Cycle 23 will also continue to discover
 unique {\it strongly-lensed transients} behind the HFF clusters. Of
-primary interest are lensed Type Ia SNe, with which we can directly
+primary interest are lensed \SNeIa, with which we can directly
 measure the true lensing magnification $\mu$ and confront the
 predictions from existing lens models
 \citep{Riehm:2011,Patel:2014,Nordin:2014}.  Figure~\ref{fig:tomas}
@@ -139,7 +112,7 @@ shows a Type Ia SN with a magnification
 $\mu=2.00\pm0.19$ found in Cycle 21 \citep{Rodney:2015b}.  The
 magnification of this SN is systematically {\it overestimated} by all
 existing mass models, with some discrepant by $>5\sigma$.
-{\bf Though small, our sample of lensed SNIa is already proving to be
+{\bf Though small, our sample of lensed \SNeIa\ is already proving to be
   a very valuable tool for testing galaxy cluster dark matter models,}
 which will be particularly valuable for the study of $z>8$ galaxies
 magnified by these clusters
@@ -162,7 +135,7 @@ Lens models (and Occam's razor) suggest that these two events are most
 likely {\it spatially coincident} on the source plane.  If the two
 events were also {\it coincident in time}, then this could be an
 example of an extremely rare neutron star collision \citep[a
-  ``kilonova'';][]{Tanvir:2013,Kasen:2014,Metzger:2015}.  If not,
+  ``kilonova'';][]{Li:1998,Tanvir:2013,Kasen:2014,Metzger:2015}.  If not,
 these may be two separate outbursts from an extremely bright nova with
 a remarkably fast recurrence timescale of $\sim$1 year
 (Figure~\ref{fig:spock}; Rodney et al., in prep).  This would be a
@@ -170,24 +143,61 @@ unique nova, as it would have a recurrence timescale on par with the
 most extreme examples known \citep{Tang:2014} and would also be at
 least an order of magnitude more luminous than a typical nova.
 
+
 \begin{figure*}
-%\vspace{-5mm}
+\centering
+%\begin{tabular}{cc}
+%\begin{adjustbox}{valign=t}
+%\begin{tabular}{@{}c@{}}
+%  \includegraphics[width=3.6in]{FIG/snTomas_lightcurve_fit_magAB.pdf} \\
+%  \includegraphics[width=3.6in]{FIG/snTomas_hubble_diagram.pdf}
+%\end{tabular}
+%\end{adjustbox}
+%&
+%\begin{adjustbox}{valign=t}
+%  \includegraphics[width=2.6in]{FIG/snTomas_magnifications.pdf}
+%\end{adjustbox}
+%\end{tabular}
+  \includegraphics[width=\textwidth]{FIG/snTomas_lightcurve_fit_magAB.pdf} \\
+  \includegraphics[width=0.6\textwidth]{FIG/snTomas_hubble_diagram.pdf}
+  \includegraphics[width=0.39\textwidth]{FIG/snTomas_magnifications.pdf}
+\caption{ \label{fig:tomas} \small {\bf Testing Cluster Mass Models
+    with Lensed Type Ia SNe.}  SN Tomas is a spectroscopically confirmed
+  Type Ia SN at $z=1.33$, discovered behind the galaxy cluster Abell
+  2744 (z=0.308).  {\it(Top)} This SN is well matched by a normal
+  SN Ia light curve template with little extinction.  {\it(Bottom
+    Left)} Comparing the inferred distance modulus of SN Tomas to a
+  sample of un-lensed SNe at similar redshifts (Riess et al. 2007,
+  ApJ, 659, 98; Suzuki et al. 2012, ApJ, 746, 85), we find a
+  difference of $\sim$0.75 mag, which gives us a measurement of the
+  lensing magnification with 12\% precision.  {\it (Bottom Right)} The
+  vertical red and blue bars indicate the measured magnification from
+  the SN, and data points show the predicted values from all publicly
+  available lens models, with the sample mean as a dashed vertical
+  line. Collectively these models are {\it systematically
+    overestimating} the magnification, so SN Tomas may be revealing a
+  small intrinsic bias common to most lens models. }
+\end{figure*}
+
+
+\begin{figure*}
+\vspace{-15mm}
 \begin{center}
 \includegraphics[width=0.63\textwidth]{FIG/spock_summary}
 \includegraphics[width=0.36\textwidth]{FIG/spockNW_lightcurve_jan14event2}
 \caption{ \label{fig:spock} %\small 
-{\bf Spock, a peculiar pair of events.}  {\it Left:} A template
+{\bf Spock, a peculiar pair of events.}  {\it(Left)} A template
 \HST\ image in the F814W band showing the locations of two transient
 sources (nicknamed ``Spock-SE'' and ``Spock-NW'') that separately
 appeared in adjacent images of a strongly-lensed galaxy at $z=1.0$
 behind the Frontier Field cluster MACSJ0416. Lens models indicate that
 a critical curve passes roughly mid-way between them, and they are
-magnified by $\mu\sim20-30$ (3-4 mags).  {\it Right:} The light curve
+magnified by $\mu\sim20-30$ (3-4 mags).  {\it(Right)} The light curve
 of the Spock-NW event was captured in high-cadence HST-ACS imaging,
 and the entire episode lasted only $\sim3$ rest-frame days. 
 }
 \vspace{3mm}
-\includegraphics[width=0.88\textwidth]{FIG/refsdal_discovery.jpg}
+\includegraphics[width=\textwidth]{FIG/refsdal_discovery.jpg}
  \caption{ %\small 
   {\bf Refsdal, the first multiply-imaged supernova.}
    The left panel shows a composite UV+optical+IR image of the central
@@ -202,14 +212,14 @@ and the entire episode lasted only $\sim3$ rest-frame days.
 \end{figure*}
 
 In November of 2014 we discovered another exciting transient, this
-time with four distinct sources appearing $\sim$simultaneously in a
+time with four distinct sources appearing roughly simultaneously in a
 strongly lensed spiral galaxy at $z=1.5$.  Dubbed ``SN Refsdal,'' this
 is the {\bf first ever example of a strongly lensed SN with multiple
   resolved images (Figure~\ref{fig:refsdal}; \citealt{Kelly:2015}).}
 The Einstein Cross configuration shown in Figure~\ref{fig:refsdal} is
 generated by a galaxy-scale lens, but the SN host galaxy is also
 multiply imaged by the cluster, so {\bf we expect to see SN Refsdal
-  return elsewhere in the cluster field in 1-5 years}
+  return elsewhere in the cluster field within 5 years}
 \citep{Oguri:2015,Sharon:2015}.  Measurements of the relative
 magnifications and time delays among these multiple images will soon
 deliver an unprecedented suite of powerful new mass model constraints.
@@ -228,22 +238,22 @@ In Cycle 23 the SN discoveries that this program will follow up will
 come primarily from the HFF imaging of the final two cluster fields:
 Abell 370 and Abell S1063. In addition, we are submitting a separate
 Cycle 23 proposal (PI:Kelly) to provide regular monitoring of the
-MACSJ1149 field with HST imaging.  That Cycle 23 program is needed to
+MACSJ1149 field with HST imaging -- needed to
 measure time delays between the 4 images of SN Refsdal
-(Figure~\ref{fig:refsdal}) and catch it's predicted reappearance).  If
+(Figure~\ref{fig:refsdal}) and catch its predicted reappearance.  If
 that MACSJ1149 program is approved, it will effectively provide a
-third SN survey field in Cycle 23. Our FrontierSN team will search
-for any {\it new} SNe, lensed or otherwise, that appear in the
+third SN survey field in Cycle 23. Our FrontierSN team will find
+and follow any {\it new} SNe, lensed or otherwise, that appear in the
 MACSJ1149 cluster field or the associated parallels.
 
 Based on our simulations of the HFF survey and the actual yield in the
 first two years, we expect to find another 8-12 SNe in Cycle 23, with
 uncertainty dominated by poisson statistics for the small number of
 events in any single survey year.  As our first two years have shown,
-it is extremely difficult to prognosticate the actual number of orbits
+it is extremely difficult to predict the actual number of orbits
 that will be required for effective follow-up of this final-year HFF
-SN sample.  Using the first two years as a guide, {\bf we request a new
-allocation  of 20 orbits for Cycle 23.}
+SN sample.  Using the follow-up expenses in our first two years as a
+guide, {\bf we request a new allocation of 20 orbits for Cycle 23.}
 
 We anticipate spending $\sim$6 orbits on 2-5 candidate SNe that might
 be at high redshift ($z>1$) or significantly magnified ($\mu>2$).  The
@@ -292,10 +302,10 @@ This SN follow-up program requires ToO status, and we request 5
 non-disruptive ToO triggers for the cycle.  Most of our SN targets
 that warrant follow-up observations are at $z>1$, with significant
 time dilation, and the deep Frontier Field imaging typically provides
-early detections for many of them.  Therefore the non-disruptive time
-delay of 3 weeks is acceptable for all our triggers.
+early detections for many of them.  Therefore non-disruptive ToOs are
+acceptable for all our triggers.
 
-We additionally request a continuation of the fast-ftp delivery of our
+In addition, we request a continuation of fast FTP delivery for our
 FrontierSN observations immediately after those data become available,
 as has been implemented for our program in Cycles 21 and 22.  Rapid
 delivery and analysis allows us to respond to new information from our
@@ -342,13 +352,13 @@ requiring 60 orbits of HST Target of Opportunity (ToO) follow-up
 observations.  This forecast was based on the expected yield from the
 HFF survey alone.  The approval of the GLASS program in Cycle 21
 roughly doubled the effective survey volume, and as GLASS had no
-dedicated HST follow-up resources, we have used our FrontierSN orbits
+dedicated \HST\ follow-up resources, we have used our FrontierSN orbits
 to follow the GLASS discoveries as well.
 
 We have used {\bf 34 orbits} from our FrontierSN allocation for follow-up
 imaging and spectroscopy of 10 transient candidates found in the GLASS
 and HFF survey imaging.  Of these 34 orbits, half were spent on just
-two objects of interest, SN Tomas (Figure~\ref{fig:tomas}) and Spock
+two objects of interest, SN \tomas\ (Figure~\ref{fig:tomas}) and Spock
 (Figure~\ref{fig:spock}).  This was in keeping with our initial
 expectations in the Cycle 21 FrontierSN proposal, where we anticipated
 roughly half of our 60-orbit allocation would be spent on such
@@ -358,16 +368,19 @@ However, our predictions for HST follow-up needs were shattered by the
 unprecedented discovery of the multiply-imaged SN Refsdal.  To
 classify this SN and confirm its redshift, we acquired a new
 allocation of 36 orbits for HST grism spectroscopy and optical imaging
-through a director's discretionary program.  It was also necessary to
-commit another {\bf 24 orbits} from our FrontierSN program for IR
-imaging to collect the SN light curve, which enables a measurement of
-the gravitational lensing time delay.  This leaves us with only 2
-orbits left for follow-up of any SNe found in the remaining 5 months
-of HFF imaging in Cycle 22, plus the entirety of Cycle 23.
+through a director's discretionary program (PI:Kelly, PID:14041).  It
+was also necessary to commit another {\bf 24 orbits} from our
+FrontierSN program for IR imaging to collect the SN light curve, which
+enables a measurement of the gravitational lensing time delay. At the
+time of submission, SN Refsdal is still rising in brightness, so it
+appears likely that all of these 24 orbits will be needed in this
+cycle.  This leaves us with only 2 orbits left for follow-up of any
+SNe found in the remaining 5 months of HFF imaging in Cycle 22. This
+proposal would replenish our follow-up pool, covering any new
+transients to be found in Cycle 23.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 %   6. PAST HST USAGE
 %       (see Section 9.8 of the Call for Proposals)
@@ -399,8 +412,11 @@ Table\,\ref{tab:pasthstusage} lists the HST programs from recent cycles that inc
 13046 & RAISIN & Cycle 20 ToO;\linebreak complete & \nodata \\[22pt]
 13386,13790 & FrontierSN & Cycle 21-23 ToO;\linebreak precursor to this proposal & \citealt{Kelly:2015}\linebreak \citealt{Rodney:2015b}\\
 
-\enddata
-\tablenotetext{*}{Listed publications are those with direct input from PI Rodney and the CANDELS+CLASH SN team. Total CANDELS+CLASH publications $\approx$63.}
+\enddata \tablenotetext{*}{Listed publications are those with direct
+  input from PI Rodney and the CANDELS/CLASH/FrontierSN SN
+  teams. Total refereed publications with CANDELS or CLASH in the abstract
+  is $>150$.  Five more refereed publications have used the data from
+  our FrontierSN program (13386/13790).}
 \end{deluxetable}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
