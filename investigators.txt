@@ -11,6 +11,7 @@ Jens Hjorth						 DARK
 Saurabh Jha						 Rutgers
 Patrick Kelly					 UC Berkeley
 Thomas Matheson				 NOAO
+Curtis McCully					 LCOGT
 Alberto Molino					 IAA, Spain
 Adam Riess	  					 JHU/STScI
 Kasper Borello Schmidt		 UC Santa Barbara
